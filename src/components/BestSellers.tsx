@@ -1,11 +1,12 @@
 import { useRef } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
-import { products } from '../data/products'
+import { useAdminStore } from '../store/adminStore'
 import ProductCard from './ProductCard'
 import type { Product } from '../data/products'
 
 export default function BestSellers({ onQuickView }: { onQuickView: (p: Product) => void }) {
   const scroller = useRef<HTMLDivElement>(null)
+  const products = useAdminStore((s) => s.products)
 
   const scroll = (dir: 1 | -1) => {
     scroller.current?.scrollBy({ left: dir * 360, behavior: 'smooth' })

@@ -12,8 +12,26 @@ declare module 'lucide-react' {
   export const ChevronLeft: React.FC<React.SVGProps<SVGSVGElement>>
   export const ChevronRight: React.FC<React.SVGProps<SVGSVGElement>>
   export const Quote: React.FC<React.SVGProps<SVGSVGElement>>
+  export const LayoutDashboard: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Package: React.FC<React.SVGProps<SVGSVGElement>>
+  export const ShoppingCart: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Layers: React.FC<React.SVGProps<SVGSVGElement>>
+  export const LogOut: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Menu: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Shield: React.FC<React.SVGProps<SVGSVGElement>>
+  export const TrendingUp: React.FC<React.SVGProps<SVGSVGElement>>
+  export const AlertTriangle: React.FC<React.SVGProps<SVGSVGElement>>
+  export const ArrowUpRight: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Lock: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Search: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Edit3: React.FC<React.SVGProps<SVGSVGElement>>
+  export const RotateCcw: React.FC<React.SVGProps<SVGSVGElement>>
   const _default: any
   export default _default
+}
+declare module 'lenis' {
+  const Lenis: any
+  export default Lenis
 }
 declare module 'gsap/ScrollTrigger' {
   export const ScrollTrigger: any

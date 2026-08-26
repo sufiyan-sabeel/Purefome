@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   const [email, setEmail] = useState('')
@@ -98,6 +99,9 @@ export default function Footer() {
             <span className="hidden md:inline">Obsidian Elegance Design System</span>
             <span className="w-1 h-1 rounded-full bg-white/20 hidden md:block" />
             <span>Made with Stitch-inspired UI</span>
+            <Link to="/admin" className="hover:text-white/60 border border-white/10 rounded-full px-3 py-1 bg-white/[0.04]">
+              Admin
+            </Link>
           </div>
         </div>
       </div>
