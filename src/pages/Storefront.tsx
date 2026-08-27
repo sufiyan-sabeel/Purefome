@@ -10,6 +10,7 @@ import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
 import type { Product } from '../data/products'
 import { useLenis } from '../hooks/useLenis'
+import Chatbot from '../components/Chatbot'
 
 export default function Storefront() {
   const [quickProduct, setQuickProduct] = useState<Product | null>(null)
@@ -72,6 +73,7 @@ export default function Storefront() {
 
       <QuickView product={quickProduct} open={!!quickProduct} onClose={() => setQuickProduct(null)} />
       <CartDrawer open={cartOpen} onClose={() => setCartOpen(false)} />
+      <Chatbot />
     </div>
   )
 }

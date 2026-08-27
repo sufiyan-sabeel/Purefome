@@ -26,6 +26,11 @@ declare module 'lucide-react' {
   export const Search: React.FC<React.SVGProps<SVGSVGElement>>
   export const Edit3: React.FC<React.SVGProps<SVGSVGElement>>
   export const RotateCcw: React.FC<React.SVGProps<SVGSVGElement>>
+  export const MessageCircle: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Send: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Sheet: React.FC<React.SVGProps<SVGSVGElement>>
+  export const ExternalLink: React.FC<React.SVGProps<SVGSVGElement>>
+  export const Table: React.FC<React.SVGProps<SVGSVGElement>>
   const _default: any
   export default _default
 }
